@@ -1,0 +1,50 @@
+GoPhish
+Open-source phishing framework
+
+Social Engineering
+Description
+GoPhish is a powerful, open-source phishing framework that makes it easy to test your organization's exposure to phishing.
+
+Installation / Check
+Check if installed:
+
+which gophish
+Install command:
+
+wget https://github.com/gophish/gophish/releases/download/v0.12.1/gophish-v0.12.1-linux-64bit.zip
+Basic Syntax
+./gophish
+Common Commands
+Command	What it does	When to use	Risk
+./gophish
+
+Start GoPhish server	Launch phishing platform	
+Access https://localhost:3333
+
+Admin interface	Configure campaigns	
+Step-by-Step Guide
+1
+Start GoPhish server
+2
+Access admin panel
+3
+Create email template
+4
+Create landing page
+5
+Setup sending profile
+6
+Create user group
+7
+Launch campaign
+Understanding the Output
+Web dashboard showing campaign statistics, clicks, and submissions.
+
+Important Warnings
+•
+For authorized testing only
+•
+Can damage reputation
+•
+Requires proper authorization
+⚠️ Use Kali Linux tools only on systems you own or have written permission to test. Unauthorized hacking is illegal and can result in criminal charges.
