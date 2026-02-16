@@ -1,0 +1,52 @@
+theHarvester
+Email and subdomain harvesting tool
+
+Information Gathering
+Description
+theHarvester is an OSINT tool designed to gather email accounts, subdomain names, virtual hosts, open ports, banners, and employee names from different public sources like search engines.
+
+Installation / Check
+Check if installed:
+
+which theHarvester
+Install command:
+
+sudo apt install theharvester
+Basic Syntax
+theHarvester -d <domain> -b <source>
+Common Commands
+Command	What it does	When to use	Risk
+theHarvester -d target.com -b google
+
+Google search	Basic email/subdomain harvesting	
+theHarvester -d target.com -b all
+
+All sources	Comprehensive OSINT gathering	
+theHarvester -d target.com -b linkedin
+
+LinkedIn search	Finding employee names	
+theHarvester -d target.com -b bing -l 500
+
+Limit results	Control number of results	
+Step-by-Step Guide
+1
+Choose target domain
+2
+Select data source (google, bing, linkedin, all)
+3
+Run theHarvester
+4
+Review emails, subdomains found
+5
+Use results for further reconnaissance
+Understanding the Output
+Output shows discovered emails, hostnames, IPs, and subdomains organized by source.
+
+Important Warnings
+•
+This is passive reconnaissance - generally legal
+•
+Some API sources require keys
+•
+Respect rate limits of search engines
+⚠️ Use Kali Linux tools only on systems you own or have written permission to test. Unauthorized hacking is illegal and can result in criminal charges.
