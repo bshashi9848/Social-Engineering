@@ -1,0 +1,55 @@
+Sherlock
+Find usernames across social networks
+
+Social Engineering
+Description
+Sherlock hunts down social media accounts by username across 300+ social networks. Essential OSINT tool for finding a person's online presence.
+
+Installation / Check
+Check if installed:
+
+which sherlock
+Install command:
+
+pip install sherlock-project
+Basic Syntax
+sherlock <username>
+Common Commands
+Command	What it does	When to use	Risk
+sherlock username
+
+Search all sites	Find user profiles	
+sherlock username --timeout 10
+
+With timeout	Faster results	
+sherlock user1 user2 user3
+
+Multiple users	Batch search	
+sherlock username --output results.txt
+
+Save results	Export findings	
+sherlock username --print-found
+
+Only found accounts	Clean output	
+Step-by-Step Guide
+1
+Choose target username
+2
+Run sherlock
+3
+Review found profiles
+4
+Visit profiles for verification
+5
+Document findings
+Understanding the Output
+Lists social media URLs where the username was found.
+
+Important Warnings
+•
+Respect privacy laws
+•
+Verify findings manually
+•
+Use for authorized investigations only
+⚠️ Use Kali Linux tools only on systems you own or have written permission to test. Unauthorized hacking is illegal and can result in criminal charges.
