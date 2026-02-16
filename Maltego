@@ -1,0 +1,52 @@
+Maltego
+Visual link analysis tool for OSINT
+
+Information Gathering
+Description
+Maltego is a powerful OSINT and graphical link analysis tool. It maps relationships between pieces of information gathered from the internet, helping visualize connections between entities.
+
+Installation / Check
+Check if installed:
+
+which maltego
+Install command:
+
+sudo apt install maltego
+Basic Syntax
+maltego (GUI application)
+Common Commands
+Command	What it does	When to use	Risk
+maltego
+
+Launch Maltego	Starting OSINT investigation	
+Add entity: Domain
+
+Start with a domain	Beginning domain investigation	
+Run transform: To DNS Name
+
+Find DNS records	Discovering subdomains	
+Run transform: To Email Addresses
+
+Find related emails	Email harvesting	
+Step-by-Step Guide
+1
+Launch Maltego and create new graph
+2
+Add starting entity (domain, email, person)
+3
+Right-click and run transforms
+4
+Explore relationships visually
+5
+Export findings for reporting
+Understanding the Output
+Visual graph shows entities as nodes and relationships as edges. Different colors indicate entity types.
+
+Important Warnings
+•
+Community Edition has limitations
+•
+Some transforms use external APIs
+•
+OSINT is generally legal but respect privacy
+⚠️ Use Kali Linux tools only on systems you own or have written permission to test. Unauthorized hacking is illegal and can result in criminal charges.
