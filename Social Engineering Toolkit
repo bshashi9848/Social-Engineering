@@ -1,0 +1,54 @@
+Social Engineering Toolkit
+Framework for social engineering attacks
+
+Social Engineering
+Description
+The Social-Engineer Toolkit (SET) is a penetration testing framework designed for social engineering. It has many attack vectors to exploit human weaknesses.
+
+Installation / Check
+Check if installed:
+
+which setoolkit
+Install command:
+
+sudo apt install set
+Basic Syntax
+sudo setoolkit
+Common Commands
+Command	What it does	When to use	Risk
+sudo setoolkit
+
+Launch SET	Start social engineering	
+Option 1: Social-Engineering Attacks
+
+Main attack menu	Choose attack type	
+Option 2: Website Attack Vectors
+
+Web-based attacks	Credential harvesting	
+Option 3: Credential Harvester
+
+Clone sites for creds	Phishing setup	
+Step-by-Step Guide
+1
+Launch: sudo setoolkit
+2
+Select attack category
+3
+Choose attack vector
+4
+Configure attack parameters
+5
+Launch attack
+6
+Capture credentials
+Understanding the Output
+Menu-driven interface showing attack options and captured data.
+
+Important Warnings
+•
+Highly illegal without permission
+•
+For authorized testing only
+•
+Can be traced back to you
+⚠️ Use Kali Linux tools only on systems you own or have written permission to test. Unauthorized hacking is illegal and can result in criminal charges.
